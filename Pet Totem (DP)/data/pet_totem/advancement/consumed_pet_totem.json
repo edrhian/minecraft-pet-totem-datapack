@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "consumed_pet_totem": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "pet_totem": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pet_totem:consumed_pet_totem"
+  }
+}
