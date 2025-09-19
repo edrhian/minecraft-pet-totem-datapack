@@ -26,7 +26,7 @@ Place the ```.zip``` in your world's ```datapacks``` folder
 
 [Mobs that can have the totem](https://minecraft.wiki/w/Taming/#List_of_mobs)
 
-## Demostration
+## Demonstration
 
 ### Totem
 
