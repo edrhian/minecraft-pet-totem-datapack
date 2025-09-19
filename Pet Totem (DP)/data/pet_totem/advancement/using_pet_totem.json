@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "using_pet_totem": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying",
+          "components": {
+            "minecraft:custom_data": {
+              "pet_totem": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pet_totem:using_pet_totem"
+  }
+}
