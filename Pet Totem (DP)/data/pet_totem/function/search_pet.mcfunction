@@ -1,4 +1,13 @@
-execute if entity @e[type=#pet_totem:tameable,distance=..2] as @e[type=#pet_totem:tameable,limit=1,sort=nearest] unless predicate pet_totem:already_has_pet_totem run return run function pet_totem:equip_totem
+#> Search Pet
+# Description:
+#   - Checks if there are any pets that don't have any pet totem
+# Callers:
+#   - pet_totem:_advancement/consumed_pet_totem
+
+execute if entity @e[type=#pet_totem:tameable,distance=..2] \
+    as @e[type=#pet_totem:tameable,limit=1,sort=nearest] \
+    unless predicate pet_totem:already_has_pet_totem \
+    run return run function pet_totem:equip_totem
 
 tellraw @p {"color":"aqua","text":"Pet not found or pet already has totem"}
 
