@@ -1,3 +1,9 @@
+#> Main Load
+# Description:
+#   - Creates the scoreboards, gives recipes and revokes trigger advancements
+# Callers:
+#   - minecraft:load
+
 scoreboard objectives add .pet_totem_check_pets trigger
 scoreboard objectives add .pet_totem_particle_timer dummy
 

@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "pet_totem:using_pet_totem"
+    "function": "pet_totem:_advancement/using_pet_totem"
   }
 }
